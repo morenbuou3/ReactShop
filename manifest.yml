@@ -1,0 +1,7 @@
+---
+applications:
+-
+  # application name
+  name: ReactShop
+  instances: 1
+  memory: 1024M

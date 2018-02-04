@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-size: 16px;
+}
+
+.img {
+  height: 250px;
+}
+
+#products {
+  margin-top: 5em;
+}
+
+.cartButton {
+  margin-bottom: 2em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25px;
+}
+
+.slogan {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.head {
+    display: flex;
+    margin-top: 5px;
+    height: 100%;
+}
+
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
