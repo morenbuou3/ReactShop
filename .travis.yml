@@ -8,6 +8,9 @@ script:
   - npm install
   - unset CI
   - npm run build
+before_deploy:
+  - cp manifest.yml build/
+  - cd build
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
