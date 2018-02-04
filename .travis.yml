@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 6
+  - "6"
 cache:
   directories:
     - node_modules
@@ -8,6 +8,9 @@ script:
   - npm install
   - unset CI
   - npm run build
+before_deploy:
+  - cp manifest.yml build/
+  - cd build
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
