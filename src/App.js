@@ -130,7 +130,7 @@ class ProductInfo extends Component {
         return(
             <div>
                 <ListGroupItem>
-                    <Image className="img" src={"../img/"+this.props.item.product_img} responsive/>
+                    <Image className="img" src={"../img/"+this.props.item.product_img} />
                 </ListGroupItem>
                 <ListGroupItem>
                     商品名称：<b>{this.props.item.product_name}</b>
