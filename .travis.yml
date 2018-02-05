@@ -6,6 +6,11 @@ script:
   - npm install
   - unset CI
   - npm run build
+cache:
+  directories:
+    - "node_modules"
+before_deploy:
+    - rm -R ./node_modules
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
