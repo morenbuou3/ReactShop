@@ -31,5 +31,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/morenbuou3/ReactShop/issues"
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
